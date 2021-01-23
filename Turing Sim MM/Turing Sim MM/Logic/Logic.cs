@@ -5,14 +5,19 @@ namespace Turing_UI
 {
     public class Logic
     {
-        public struct Info
+        public struct Info : IEquatable<Info>
         {
             public List<string> instr;
             public int x;
             public List<char> arr;
             public List<Tuple<string, char, char, char, string>> log;
+
+            public bool Equals(Info other)
+            {
+                throw new NotImplementedException();
+            }
         }
-        Variables T = new Variables();
+        readonly Variables T = new Variables();
         public Info Machine(string file)
         {
             T.instr = FileReader.Text(file, T.instr);

@@ -20,8 +20,9 @@ namespace Turing_UI
         public string ats;
         public string z { get; set; }
         public List<char> arr = new List<char>();
-        public int h = 0;
+        public int h;
         public bool Stop = false;
         public string ATS;
+
     }
 }

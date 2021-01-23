@@ -10,7 +10,6 @@ namespace Turing_UI
     {
         public static void Clear(List<Tuple<string, char, char, char, string>> log, int x, string BoxT, List<char> arr, List<string> instr, int h, bool Stop, string ATS)
         {
-            Stop = true;
             h = 0;
             ATS = String.Empty;
             BoxT = String.Empty;

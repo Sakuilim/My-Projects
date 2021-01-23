@@ -1,0 +1,10 @@
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\bin\Debug\WindowsFormsApp1.exe
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\obj\Debug\Turing Sim.csprojAssemblyReference.cache
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\obj\Debug\Turing_UI.Form1.resources
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\obj\Debug\Turing Sim.csproj.GenerateResource.cache
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\obj\Debug\Turing Sim.csproj.CoreCompileInputs.cache
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\obj\Debug\WindowsFormsApp1.exe
+C:\Users\miliu\Documents\GitHub\Repo\Turing-Machine-Sim\Turing Sim MM\Turing Sim MM\obj\Debug\WindowsFormsApp1.pdb

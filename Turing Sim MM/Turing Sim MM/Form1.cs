@@ -8,15 +8,15 @@ namespace Turing_UI
 {
     public partial class Form1 : Form
     {
-        FileReader Txt = new FileReader();
-        Logic W = new Logic();
-        Logic W1 = new Logic();
-        Logic W2 = new Logic();
-        Logic W3 = new Logic();
-        public int[] chk = new int[5] { 0, 0, 0, 0, 0 };
-        public bool[] btn = new bool[4] { false, false, false, false };
+        readonly FileReader Txt = new FileReader();
+        readonly Logic W = new Logic();
+        readonly Logic W1 = new Logic();
+        readonly Logic W2 = new Logic();
+        readonly Logic W3 = new Logic();
+        private int[] chk = new int[5] { 0, 0, 0, 0, 0 };
+        private bool[] btn = new bool[4] { false, false, false, false };
         Variables Duom = new Variables();
-        CancellationTokenSource cts = null;
+        CancellationTokenSource cts;
         public Form1()
         {
             InitializeComponent();
@@ -84,7 +84,7 @@ namespace Turing_UI
                 Logic.Info info3 = W.Machine(Duom.name[3]);
                 foreach (var ats4 in FileReader.Veiksmas(info3.log, info3.x, Duom.ats, info3.arr, info3.instr, Duom.h, Duom.Stop, Duom.ATS, token))
                 {
-                    await Task.Delay(1);
+                    await Task.Delay(1).ConfigureAwait(false);
                     tBox4.Text = ats4;
                 }
                 btn[3] = false;
@@ -106,7 +106,7 @@ namespace Turing_UI
             {
                 return;
             }
-            Duom.first = File.ReadAllLines(Duom.name[0]);//.Where(arg => !string.IsNullOrWhiteSpace(arg));
+            Duom.first = File.ReadAllLines(Duom.name[0]);
             tBox1.Text = Duom.first[0];
         }
         private void Filebtn2_Click(object sender, EventArgs e)
@@ -127,7 +127,7 @@ namespace Turing_UI
                 return;
             }
             go(chk);
-            Duom.first = File.ReadAllLines(Duom.name[1]);//.Where(arg => !string.IsNullOrWhiteSpace(arg));
+            Duom.first = File.ReadAllLines(Duom.name[1]);
             tBox2.Text = Duom.first[0];
         }
         public void FileBtn3_Click(object sender, EventArgs e)
@@ -147,7 +147,7 @@ namespace Turing_UI
             {
                 return;
             }
-            Duom.first = File.ReadAllLines(Duom.name[2]);//.Where(arg => !string.IsNullOrWhiteSpace(arg));
+            Duom.first = File.ReadAllLines(Duom.name[2]);
             tBox3.Text = Duom.first[0];
         }
         private void FileBtn4_Click(object sender, EventArgs e)
@@ -165,7 +165,7 @@ namespace Turing_UI
             {
                 return;
             }
-            Duom.first = File.ReadAllLines(Duom.name[3]);//.Where(arg => !string.IsNullOrWhiteSpace(arg));
+            Duom.first = File.ReadAllLines(Duom.name[3]);
             tBox4.Text = Duom.first[0];
         }
         private void strtAllBtn1_Click(object sender, EventArgs e)
@@ -238,8 +238,8 @@ namespace Turing_UI
         private void stopBtn1_Click(object sender, EventArgs e)
         {
 
-            this.Enable(true);
-            strtAllBtn1.Enable(false);
+            this.Enableb(true);
+            strtAllBtn1.Enableb(false);
             go(chk);
             cts.Cancel();
         }
@@ -257,9 +257,13 @@ namespace Turing_UI
             {
                 foreach (Control control in controls)
                     if (control is TextBox)
+                    {
                         (control as TextBox).Clear();
+                    }
                     else
+                    {
                         func(control.Controls);
+                    }
             };
             func(Controls);
         }
@@ -267,56 +271,57 @@ namespace Turing_UI
         {
             if (btn[0] == true)
             {
-                startBtn1.Enable(false);
-                groupBox2.Enable(false);
-                groupBox3.Enable(false);
-                groupBox4.Enable(false);
-                fileBtn1.Enable(false);
-                strtAllBtn1.Enable(false);
+                startBtn1.Enableb(false);
+                groupBox2.Enableb(false);
+                groupBox3.Enableb(false);
+                groupBox4.Enableb(false);
+                fileBtn1.Enableb(false);
+                strtAllBtn1.Enableb(false);
             }
             else if (btn[1] == true)
             {
-                strtAllBtn1.Enable(false);
-                groupBox1.Enable(false);
-                groupBox3.Enable(false);
-                groupBox4.Enable(false);
-                strtBtn2.Enable(false);
-                Filebtn2.Enable(false);
+                strtAllBtn1.Enableb(false);
+                groupBox1.Enableb(false);
+                groupBox3.Enableb(false);
+                groupBox4.Enableb(false);
+                strtBtn2.Enableb(false);
+                Filebtn2.Enableb(false);
             }
             else if (btn[2] == true)
             {
-                strtAllBtn1.Enable(false);
-                groupBox1.Enable(false);
-                groupBox2.Enable(false);
-                groupBox4.Enable(false);
-                strtBtn3.Enable(false);
-                FileBtn3.Enable(false);
+                strtAllBtn1.Enableb(false);
+                groupBox1.Enableb(false);
+                groupBox2.Enableb(false);
+                groupBox4.Enableb(false);
+                strtBtn3.Enableb(false);
+                FileBtn3.Enableb(false);
             }
             else if (btn[3] == true)
             {
-                strtAllBtn1.Enable(false);
-                groupBox1.Enable(false);
-                groupBox2.Enable(false);
-                groupBox3.Enable(false);
-                strtBtn4.Enable(false);
-                FileBtn4.Enable(false);
+                strtAllBtn1.Enableb(false);
+                groupBox1.Enableb(false);
+                groupBox2.Enableb(false);
+                groupBox3.Enableb(false);
+                strtBtn4.Enableb(false);
+                FileBtn4.Enableb(false);
             }
 
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
-
+        }
     }
     public static class GuiExtensionMethods
     {
-        public static void Enable(this Control con, bool enable)
+        public static void Enableb(this Control con, bool enable)
         {
             if (con != null)
             {
                 foreach (Control c in con.Controls)
                 {
-                    c.Enable(enable);
+                    c.Enableb(enable);
                 }
-
                 try
                 {
                     con.Invoke((MethodInvoker)(() => con.Enabled = enable));

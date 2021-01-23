@@ -59,25 +59,29 @@
             this.groupBox1.Controls.Add(this.startBtn1);
             this.groupBox1.Controls.Add(this.fileBtn1);
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1163, 159);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(775, 103);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Turing Machine";
             // 
             // tBox1
             // 
-            this.tBox1.Location = new System.Drawing.Point(215, 67);
+            this.tBox1.Location = new System.Drawing.Point(143, 44);
+            this.tBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tBox1.Name = "tBox1";
             this.tBox1.ReadOnly = true;
-            this.tBox1.Size = new System.Drawing.Size(902, 26);
+            this.tBox1.Size = new System.Drawing.Size(603, 20);
             this.tBox1.TabIndex = 2;
             // 
             // startBtn1
             // 
-            this.startBtn1.Location = new System.Drawing.Point(45, 41);
+            this.startBtn1.Location = new System.Drawing.Point(30, 27);
+            this.startBtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.startBtn1.Name = "startBtn1";
-            this.startBtn1.Size = new System.Drawing.Size(104, 35);
+            this.startBtn1.Size = new System.Drawing.Size(69, 23);
             this.startBtn1.TabIndex = 1;
             this.startBtn1.Text = "Start";
             this.startBtn1.UseVisualStyleBackColor = true;
@@ -85,9 +89,10 @@
             // 
             // fileBtn1
             // 
-            this.fileBtn1.Location = new System.Drawing.Point(35, 101);
+            this.fileBtn1.Location = new System.Drawing.Point(23, 66);
+            this.fileBtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.fileBtn1.Name = "fileBtn1";
-            this.fileBtn1.Size = new System.Drawing.Size(127, 31);
+            this.fileBtn1.Size = new System.Drawing.Size(85, 20);
             this.fileBtn1.TabIndex = 0;
             this.fileBtn1.Text = "Choose File..";
             this.fileBtn1.UseVisualStyleBackColor = true;
@@ -98,18 +103,21 @@
             this.groupBox2.Controls.Add(this.Filebtn2);
             this.groupBox2.Controls.Add(this.tBox2);
             this.groupBox2.Controls.Add(this.strtBtn2);
-            this.groupBox2.Location = new System.Drawing.Point(0, 209);
+            this.groupBox2.Location = new System.Drawing.Point(0, 136);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1163, 159);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(775, 103);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Turing Machine";
             // 
             // Filebtn2
             // 
-            this.Filebtn2.Location = new System.Drawing.Point(35, 107);
+            this.Filebtn2.Location = new System.Drawing.Point(23, 70);
+            this.Filebtn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Filebtn2.Name = "Filebtn2";
-            this.Filebtn2.Size = new System.Drawing.Size(127, 31);
+            this.Filebtn2.Size = new System.Drawing.Size(85, 20);
             this.Filebtn2.TabIndex = 3;
             this.Filebtn2.Text = "Choose File..";
             this.Filebtn2.UseVisualStyleBackColor = true;
@@ -117,17 +125,19 @@
             // 
             // tBox2
             // 
-            this.tBox2.Location = new System.Drawing.Point(215, 67);
+            this.tBox2.Location = new System.Drawing.Point(143, 44);
+            this.tBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tBox2.Name = "tBox2";
             this.tBox2.ReadOnly = true;
-            this.tBox2.Size = new System.Drawing.Size(902, 26);
+            this.tBox2.Size = new System.Drawing.Size(603, 20);
             this.tBox2.TabIndex = 2;
             // 
             // strtBtn2
             // 
-            this.strtBtn2.Location = new System.Drawing.Point(45, 41);
+            this.strtBtn2.Location = new System.Drawing.Point(30, 27);
+            this.strtBtn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.strtBtn2.Name = "strtBtn2";
-            this.strtBtn2.Size = new System.Drawing.Size(104, 35);
+            this.strtBtn2.Size = new System.Drawing.Size(69, 23);
             this.strtBtn2.TabIndex = 1;
             this.strtBtn2.Text = "Start";
             this.strtBtn2.UseVisualStyleBackColor = true;
@@ -138,26 +148,30 @@
             this.groupBox3.Controls.Add(this.tBox3);
             this.groupBox3.Controls.Add(this.strtBtn3);
             this.groupBox3.Controls.Add(this.FileBtn3);
-            this.groupBox3.Location = new System.Drawing.Point(0, 436);
+            this.groupBox3.Location = new System.Drawing.Point(0, 283);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1163, 159);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(775, 103);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Turing Machine";
             // 
             // tBox3
             // 
-            this.tBox3.Location = new System.Drawing.Point(215, 67);
+            this.tBox3.Location = new System.Drawing.Point(143, 44);
+            this.tBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tBox3.Name = "tBox3";
             this.tBox3.ReadOnly = true;
-            this.tBox3.Size = new System.Drawing.Size(902, 26);
+            this.tBox3.Size = new System.Drawing.Size(603, 20);
             this.tBox3.TabIndex = 2;
             // 
             // strtBtn3
             // 
-            this.strtBtn3.Location = new System.Drawing.Point(45, 41);
+            this.strtBtn3.Location = new System.Drawing.Point(30, 27);
+            this.strtBtn3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.strtBtn3.Name = "strtBtn3";
-            this.strtBtn3.Size = new System.Drawing.Size(104, 35);
+            this.strtBtn3.Size = new System.Drawing.Size(69, 23);
             this.strtBtn3.TabIndex = 1;
             this.strtBtn3.Text = "Start";
             this.strtBtn3.UseVisualStyleBackColor = true;
@@ -165,9 +179,10 @@
             // 
             // FileBtn3
             // 
-            this.FileBtn3.Location = new System.Drawing.Point(35, 101);
+            this.FileBtn3.Location = new System.Drawing.Point(23, 66);
+            this.FileBtn3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FileBtn3.Name = "FileBtn3";
-            this.FileBtn3.Size = new System.Drawing.Size(127, 31);
+            this.FileBtn3.Size = new System.Drawing.Size(85, 20);
             this.FileBtn3.TabIndex = 0;
             this.FileBtn3.Text = "Choose File..";
             this.FileBtn3.UseVisualStyleBackColor = true;
@@ -178,26 +193,30 @@
             this.groupBox4.Controls.Add(this.tBox4);
             this.groupBox4.Controls.Add(this.strtBtn4);
             this.groupBox4.Controls.Add(this.FileBtn4);
-            this.groupBox4.Location = new System.Drawing.Point(0, 639);
+            this.groupBox4.Location = new System.Drawing.Point(0, 415);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1163, 159);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Size = new System.Drawing.Size(775, 103);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Turing Machine";
             // 
             // tBox4
             // 
-            this.tBox4.Location = new System.Drawing.Point(215, 67);
+            this.tBox4.Location = new System.Drawing.Point(143, 44);
+            this.tBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tBox4.Name = "tBox4";
             this.tBox4.ReadOnly = true;
-            this.tBox4.Size = new System.Drawing.Size(902, 26);
+            this.tBox4.Size = new System.Drawing.Size(603, 20);
             this.tBox4.TabIndex = 2;
             // 
             // strtBtn4
             // 
-            this.strtBtn4.Location = new System.Drawing.Point(45, 41);
+            this.strtBtn4.Location = new System.Drawing.Point(30, 27);
+            this.strtBtn4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.strtBtn4.Name = "strtBtn4";
-            this.strtBtn4.Size = new System.Drawing.Size(104, 35);
+            this.strtBtn4.Size = new System.Drawing.Size(69, 23);
             this.strtBtn4.TabIndex = 1;
             this.strtBtn4.Text = "Start";
             this.strtBtn4.UseVisualStyleBackColor = true;
@@ -205,9 +224,10 @@
             // 
             // FileBtn4
             // 
-            this.FileBtn4.Location = new System.Drawing.Point(35, 101);
+            this.FileBtn4.Location = new System.Drawing.Point(23, 66);
+            this.FileBtn4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FileBtn4.Name = "FileBtn4";
-            this.FileBtn4.Size = new System.Drawing.Size(127, 31);
+            this.FileBtn4.Size = new System.Drawing.Size(85, 20);
             this.FileBtn4.TabIndex = 0;
             this.FileBtn4.Text = "Choose File..";
             this.FileBtn4.UseVisualStyleBackColor = true;
@@ -216,9 +236,10 @@
             // strtAllBtn1
             // 
             this.strtAllBtn1.Enabled = false;
-            this.strtAllBtn1.Location = new System.Drawing.Point(195, 836);
+            this.strtAllBtn1.Location = new System.Drawing.Point(130, 543);
+            this.strtAllBtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.strtAllBtn1.Name = "strtAllBtn1";
-            this.strtAllBtn1.Size = new System.Drawing.Size(135, 35);
+            this.strtAllBtn1.Size = new System.Drawing.Size(90, 23);
             this.strtAllBtn1.TabIndex = 4;
             this.strtAllBtn1.Text = "Start All";
             this.strtAllBtn1.UseVisualStyleBackColor = true;
@@ -226,9 +247,10 @@
             // 
             // stopBtn1
             // 
-            this.stopBtn1.Location = new System.Drawing.Point(499, 836);
+            this.stopBtn1.Location = new System.Drawing.Point(333, 543);
+            this.stopBtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.stopBtn1.Name = "stopBtn1";
-            this.stopBtn1.Size = new System.Drawing.Size(124, 35);
+            this.stopBtn1.Size = new System.Drawing.Size(83, 23);
             this.stopBtn1.TabIndex = 5;
             this.stopBtn1.Text = "Cancel";
             this.stopBtn1.UseVisualStyleBackColor = true;
@@ -236,9 +258,10 @@
             // 
             // extBtn1
             // 
-            this.extBtn1.Location = new System.Drawing.Point(800, 836);
+            this.extBtn1.Location = new System.Drawing.Point(533, 543);
+            this.extBtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.extBtn1.Name = "extBtn1";
-            this.extBtn1.Size = new System.Drawing.Size(119, 35);
+            this.extBtn1.Size = new System.Drawing.Size(79, 23);
             this.extBtn1.TabIndex = 6;
             this.extBtn1.Text = "Exit";
             this.extBtn1.UseVisualStyleBackColor = true;
@@ -246,9 +269,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 944);
+            this.ClientSize = new System.Drawing.Size(799, 614);
             this.Controls.Add(this.extBtn1);
             this.Controls.Add(this.stopBtn1);
             this.Controls.Add(this.strtAllBtn1);
@@ -256,8 +279,10 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Turing Sim";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
